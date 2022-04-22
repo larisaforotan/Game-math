@@ -123,6 +123,16 @@ export const projects: IProject[] = [
       "clone Facebook using React as well as using Context and Reducer to manage the state as well as Firebase to store information",
     key_techs: ["React", "Firebase"],
   },
+  {
+    name: "Panel Admin Dashboard",
+    image_path: "/images/panel.jpg",
+    deployed_url: "https://merry-gecko-e63740.netlify.app/",
+    github_url: "https://github.com/FarshadJanmohammadi/Admin-Dashboard-Panel",
+    category: ["react"],
+    description:
+      "React Admin Panel With ReactJS and State management with context and use scss for styling",
+    key_techs: ["React"],
+  },
 
   {
     name: "Portfolio",
