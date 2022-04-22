@@ -125,7 +125,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Panel Admin Dashboard",
-    image_path: "/images/panel.jpg",
+    image_path: "/images/panel1.jpg",
     deployed_url: "https://merry-gecko-e63740.netlify.app/",
     github_url: "https://github.com/FarshadJanmohammadi/Admin-Dashboard-Panel",
     category: ["react"],
