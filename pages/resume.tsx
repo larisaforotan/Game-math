@@ -12,18 +12,18 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-bold">
               Electronic Engineering
             </h5>
-            <p className="font-semibold">University of Lorestan (2013-2015)</p>
+            <p className="font-semibold">Bu-Ali Sina University (2011-2015)</p>
             <p className="my-3">
-              Graduated from Electronic Engineering at Lorestan University of Iran
+              Graduated from Electronic Engineering at Bu-Ali Sina University of Iran/Hamedan
             </p>
           </div>
         </div>
         <div>
           <h5 className="my-3 text-2xl font-bold">Experience</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">Frontend web developer</h5>
-            <p className="font-semibold">freelance</p>
-            <p className="my-3">Performing various projects as a freelancer</p>
+            <h5 className="my-2 text-xl font-bold">Frontend developer at <a style={{ textDecoration: "none" }} href="https://daraninvest.com/">Daran</a> </h5>
+            <p className="font-semibold">Full Time - 2022/May</p>
+            <p className="my-3">Frontend web developer in Daran</p>
           </div>
         </div>
       </div>
