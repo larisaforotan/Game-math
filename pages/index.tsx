@@ -11,6 +11,7 @@ import { Service } from "../types";
 
 
 import { useState } from 'react';
+import { Head } from 'next/document';
 
 const About: NextPage = () => {
 
@@ -21,6 +22,11 @@ const About: NextPage = () => {
 
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
+      <Head>
+        <title>Farshad Janmohammadi - Portfolio</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="keywords" content="Farshad Janmohammadi, فرشاد جان محمدی, فرانت اند" />
+      </Head>
       <h6 className="my-3 text-base font-medium">
         Front-end web developer with advanced skills in all stages of web development. Full familiarity in the process of user interface, testing and troubleshooting. Specialist in the design, installation, testing and maintenance of web systems. Has a diverse set of programming skills. With the ability to carry out projects individually and in groups.
       </h6>
