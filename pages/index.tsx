@@ -22,34 +22,24 @@ const About: NextPage = () => {
 
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
-      <Head>
-        <title>Farshad Janmohammadi - Portfolio</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="keywords" content="Farshad Janmohammadi, فرشاد جان محمدی, فرانت اند" />
-      </Head>
-      <h6 className="my-3 text-base font-medium">
-        Front-end web developer with advanced skills in all stages of web development. Full familiarity in the process of user interface, testing and troubleshooting. Specialist in the design, installation, testing and maintenance of web systems. Has a diverse set of programming skills. With the ability to carry out projects individually and in groups.
-      </h6>
-      <div
-        className="flex-grow p-4 mt-5 "
-        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
-      >
-        <h4 className="my-3 text-xl font-semibold tracking-wide">
-          What I am doing
-        </h4>
+   
+      <h6 className="my-3 text-justify text-base font-medium">
+سلام، من لاریسا فروتن هستم، دانش‌آموز پایه نهم رشته ریاضی در مدرسه پروین اعتصامی شهرستان اسدآباد استان همدان. با افتخار اعلام می‌کنم که علاقه‌مند به برنامه‌نویسی و توسعه وب هستم و قصد دارم در این زمینه در جشنواره نوجوان خوارزمی شرکت کنم. پروژه‌ای که توسعه داده‌ام، مربوط به یک بازی ریاضی است که با آن سعی دارم علاقه‌مندی و دانش ریاضی خود را به نمایش بگذارم.
 
-        <div className="grid gap-6 my-3 md:grid-cols-2">
-          {/* children's initial and animate property should be same as the parent during a stagger effect  */}
-          {services.map((service) => (
-            <div
-              className="col-span-2 p-2 duration-150 bg-gray-200 rounded-lg hover:scale-105 dark:bg-dark-200 md:col-span-1 "
-              key={service.title}
-            >
-              <ServiceCard service={service} />
-            </div>
-          ))}
-        </div>
-      </div>
+این بازی مربوط به تست مهارت‌های اصلی و پایه‌ای ریاضی است که نشان می‌دهد کاربر جهت درک و اجرای صحیح عملیات‌های پایه‌ای ریاضی مهارت دارد.
+
+مایه‌ی افتخار بزرگ من، همکاری با معلم راهنمای عزیزم، سرکار خانم سحر ترابیان، که با راهنمایی‌هایش مرا به سمت رشد و پیشرفت هدایت می‌کنند. همچنین، از حمایت و راهنمایی‌های ارزشمند جناب آقای جلیلوند و جناب آقای شیخ محمدی نیز کمال تشکر را دارم؛ آنها برای انگیزه‌بخشی و تشویق من به دنبال رویایم بوده‌اند.
+
+با اعتماد به نفس و با دلسوزی، به دنبال شکوفایی و پیشرفت خود در مسابقه‌ی جشنواره نوجوان خوارزمی می‌روم، امیدوارم بتوانم با نهادینه‌سازی مهارت‌های خود، به ارمغان آوردن نتایج قابل توجهی برای خود و مدرسه‌ی عزیزم برسانم.
+
+با ارزوی موفقیت و تشکر از همگان که در این مسیر مرا همراهی می‌کنند.
+
+
+<div className="p-10 flex justify-center items-center">
+  <span>صمیمانه، لاریسا فروتن</span>
+</div>
+      </h6>
+     
     </div>
   );
 };
