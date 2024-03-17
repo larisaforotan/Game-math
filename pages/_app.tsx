@@ -2,14 +2,10 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import "../styles/globals.css";
 
-import { Provider } from 'react-redux'
-import store from '../components/gamee/redux/store'
-
 import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider store={store} >
     <ThemeProvider attribute="class">
       <div className="grid grid-cols-12 gap-6 px-5 my-14 lg:mb-0 md:mb-16 sm:px-20 md:px-32 lg:px-36 xl:px-48 ">
         {/* // do this div style later (after putting the content) */}
@@ -25,7 +21,6 @@ function MyApp({ Component, pageProps }) {
         </div>
       </div>
     </ThemeProvider>
-    </Provider>
   );
 }
 

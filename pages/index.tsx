@@ -10,7 +10,6 @@ import { services } from "../data";
 import { Service } from "../types";
 
 
-import { useState } from 'react';
 import { Head } from 'next/document';
 
 const About: NextPage = () => {
