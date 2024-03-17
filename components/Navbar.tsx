@@ -29,7 +29,7 @@ const Navbar = () => {
    //later
    useEffect(() => {
       if (pathname === '/') setActive('درباره من')
-      if(pathname === '/math') setActive("ریاضی فصل نهم")
+      if(pathname === '/math') setActive("ریاضی نهم- فصل اول")
    }, [pathname])
 
    return (
@@ -48,7 +48,7 @@ const Navbar = () => {
             <NavItem
                active={active}
                setActive={setActive}
-               name='ریاضی فصل نهم'
+               name='ریاضی نهم-فصل اول'
                route='/math'
             />
          
