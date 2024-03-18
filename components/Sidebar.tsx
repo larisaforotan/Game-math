@@ -26,7 +26,7 @@ const Sidebar = (props) => {
   return (
     <>
       <Image
-        src="/images/me.jpg"
+        src="/assets/me.jpg"
         alt="avatar"
         height="128px"
         width="128px"
@@ -47,7 +47,7 @@ const Sidebar = (props) => {
         <span className="text-green ">لاریسا</span> فروتن
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-      دانش آموز پایه نهم ریاضی (توسعه دهنده وب)
+      دانش آموز پایه نهم ریاضی (مدرسه پروین اعتصامی)
       </p>
       {/* Resume */}
       {/* <a
@@ -78,7 +78,7 @@ const Sidebar = (props) => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center mb-2">
-          <GoLocation className="mb-2 mr-2" /> <span>اسدآباد/همدان</span>
+          <GoLocation className="mb-2 mr-2" /> <span>همدان/اسدآباد</span>
         </div>
         <p className="mx-2 mb-2"> l.forotan2000@gmail.com </p>
         <p className="mx-2 mb-2"> 09054326954 </p>
@@ -88,7 +88,7 @@ const Sidebar = (props) => {
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:farshadjanmohammadi@gmail.com")}
+        onClick={() => window.open("mailto:l.forotan2000@gmail.com")}
       >
         ارسال پست الکترونیک
       </button>
