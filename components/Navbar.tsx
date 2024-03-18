@@ -12,7 +12,7 @@ const NavItem: FunctionComponent<{
       <Link href={route}>
          <a>
             <span
-               className='mx-2 cursor-pointer hover:text-green'
+               className=' text-xl font-bold cursor-pointer hover:text-green'
                onClick={() => setActive(name)}>
                {name}
             </span>
@@ -29,7 +29,9 @@ const Navbar = () => {
    //later
    useEffect(() => {
       if (pathname === '/') setActive('درباره من')
-      if(pathname === '/math') setActive("ریاضی نهم- فصل اول")
+      else if(pathname === '/jozveh') setActive("جزوه")
+      else if(pathname === '/pdf') setActive("پی دی اف")
+      else if(pathname === '/video') setActive("ویدیو")
    }, [pathname])
 
    return (
@@ -38,7 +40,7 @@ const Navbar = () => {
             {active}
          </span>
 
-         <div className='text-base font-normal md:text-xl'>
+         <div className='text-base font-normal md:text-xl  flex  items-center gap-16' >
             <NavItem
                active={active}
                setActive={setActive}
@@ -48,8 +50,20 @@ const Navbar = () => {
             <NavItem
                active={active}
                setActive={setActive}
-               name='ریاضی نهم-فصل اول'
-               route='/math'
+               name='جزوه'
+               route='/jozveh'
+            />
+            <NavItem
+               active={active}
+               setActive={setActive}
+               name="پی دی اف"
+               route='/pdf'
+            />
+            <NavItem
+               active={active}
+               setActive={setActive}
+               name='ویدیو'
+               route='/video'
             />
          
          </div>
