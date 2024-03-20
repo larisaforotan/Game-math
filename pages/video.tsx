@@ -13,7 +13,7 @@ import {
   
   
 	return (
-	<div className="flex flex-col gap-8">
+	<div className="flex flex-col gap-16">
 		<video width="750" height="500" controls autoPlay={true} >
       <source src="./assets/1.mp4" type="video/mp4"/>
 </video>
@@ -21,7 +21,7 @@ import {
       <source src="./assets/2.mp4" type="video/mp4"/>
 </video>
 <video width="750" height="500" controls autoPlay={false} >
-      <source src="./assets/bishamad.mp4" type="video/mp4"/>
+      <source src="./assets/3.mp4" type="video/mp4"/>
 </video>
 	</div>
 	);
