@@ -12,7 +12,7 @@ const NavItem: FunctionComponent<{
       <Link href={route}>
          <a>
             <span
-               className=' text-xl font-bold cursor-pointer hover:text-green'
+               className=' text-base font-bold cursor-pointer hover:text-green'
                onClick={() => setActive(name)}>
                {name}
             </span>
@@ -30,13 +30,13 @@ const Navbar = () => {
    useEffect(() => {
       if (pathname === '/') setActive('درباره من')
       else if(pathname === '/jozveh') setActive("جزوه")
-      else if(pathname === '/pdf') setActive("پی دی اف")
+      else if(pathname === '/pdf') setActive("گام‌به‌گام")
       else if(pathname === '/video') setActive("ویدیو")
    }, [pathname])
 
    return (
       <div className='flex items-center justify-between px-5 py-3 my-3'>
-         <span className='text-xl font-bold border-b-4 md:text-2xl border-green'>
+         <span className='text-lg font-bold border-b-4 md:text-2xl border-green'>
             {active}
          </span>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
             <NavItem
                active={active}
                setActive={setActive}
-               name="پی دی اف"
+               name="گام‌به‌گام"
                route='/pdf'
             />
             <NavItem
